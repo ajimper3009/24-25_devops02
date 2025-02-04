@@ -2,7 +2,7 @@
 services:
   galeria:
     container_name: galeria
-    image: alejandrojimenezperez/test:latest
+    image: alejandrojimenezperez/galeria:latest
     ports:
       - 80:5000
     restart: always
